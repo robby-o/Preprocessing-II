@@ -37,7 +37,7 @@ header {
       padding-right: 1%;
       @media @mobile {
         width: 90%;
-        padding-right: none;
+        padding-right: 0;
       }
     }
 
@@ -45,12 +45,16 @@ header {
       width: 48%;
       padding-left: 1%;
       @media @mobile {
-        width: 100%;
-        padding-left: none;
+        width: 90%;
+        padding-left: 0;
       }
 
       img {
         border-radius: 10px;
+        @media @mobile {
+          width: 100%;
+          padding-left: 0;
+        }
       }
     }
   }

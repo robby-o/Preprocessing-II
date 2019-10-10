@@ -265,7 +265,7 @@ header .intro {
 @media (max-width: 500px) {
   .home .content-section .text-content {
     width: 90%;
-    padding-right: none;
+    padding-right: 0;
   }
 }
 .home .content-section .img-content {
@@ -274,12 +274,18 @@ header .intro {
 }
 @media (max-width: 500px) {
   .home .content-section .img-content {
-    width: 100%;
-    padding-left: none;
+    width: 90%;
+    padding-left: 0;
   }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content img {
+    width: 100%;
+    padding-left: 0;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
