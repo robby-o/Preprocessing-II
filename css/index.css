@@ -170,9 +170,13 @@ img {
 }
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 2% auto;
   width: 60%;
+}
+nav .title {
+  justify-self: flex-start;
+  margin-right: auto;
 }
 nav .nav-links {
   display: flex;
@@ -254,4 +258,14 @@ header .intro {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.btn {
+  width: 85%;
+  height: 15%;
+  color: #FFFFFF;
+  background-color: #17A2B8;
+  text-align: center;
+  padding: 3%;
+  font-size: 2rem;
+  border-radius: 10px;
 }
